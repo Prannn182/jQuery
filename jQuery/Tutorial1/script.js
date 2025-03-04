@@ -1,2 +1,10 @@
-$("h1").css("color", "red");
+$("h1").css("color", "tomato");
 // $("h1").css("color", "red");  // is equals to js document.querySelector("h1").style.color = "red";
+$("button").css("background-color", "yellow");
+$("button").css("border", "2px solid purple");
+$("button").css("border-radius", "10px");
+$("button").css("padding", "10px");
+$("button").css("color", "black");
+$("button").css("font-weight", "bold");
+$("button").first().css("color", "blue");
+$("button").last().css("color", "green");
