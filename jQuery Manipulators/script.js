@@ -1,0 +1,16 @@
+$("h1").addClass("big a");
+//$("h1").removeClass("big");
+$("h1").hasClass("big");
+// $("h1").css("color", "red");  // is equals to js document.querySelector("h1").style.color = "red";
+$("button").css("background-color", "yellow");
+$("button").css("border", "2px solid purple");
+$("button").css("border-radius", "10px");
+$("button").css("padding", "10px");
+$("button").css("color", "black");
+$("button").css("font-weight", "bold");
+$("button").first().css("color", "blue");
+$("button").last().css("color", "green");
+$("h1").text("Bye");
+$("button").html("<em>Don't click me</em>");
+$("a").attr("href", "https://www.yahoo.com");
+$("h1").attr("class");
