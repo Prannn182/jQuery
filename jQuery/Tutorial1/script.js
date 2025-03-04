@@ -10,3 +10,5 @@ $("button").css("color", "black");
 $("button").css("font-weight", "bold");
 $("button").first().css("color", "blue");
 $("button").last().css("color", "green");
+$("h1").text("Bye");
+$("button").html("<em>Don't click me</em>");
