@@ -1,4 +1,6 @@
-$("h1").css("color", "tomato");
+$("h1").addClass("big a");
+//$("h1").removeClass("big");
+$("h1").hasClass("big");
 // $("h1").css("color", "red");  // is equals to js document.querySelector("h1").style.color = "red";
 $("button").css("background-color", "yellow");
 $("button").css("border", "2px solid purple");
