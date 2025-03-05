@@ -15,3 +15,10 @@ $('input').keypress(function(event){
 $("h1").on("mouseover",function(){
     $("h1").css("color","red");
 })
+
+//adding and removing methods using jquery
+$("h1").before("<button>New</button>")
+$("h1").after("<button>New</button>")
+$("h1").prepend("<button>New</button>")
+$("h1").append("<button>New</button>")
+$("button").remove();
